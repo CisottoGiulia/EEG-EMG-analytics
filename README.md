@@ -66,7 +66,7 @@ RMS_values = squeeze(features(10,1,:))
 
 Notes:
 
-(1) you are supposed to have already segmented your signal prior to run the scripts.
+(1) you are supposed to have already cleaned and segmented your signal prior to run the scripts.
 
 (2) from each segment, you can extract one set of features (i.e., one single value for each different feature).
 
