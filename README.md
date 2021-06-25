@@ -40,6 +40,12 @@ Notes:
 
 
 
+Citation reference:
+-------------------------------------
+Cisotto, G., Guglielmi, A. V., Badia, L., & Zanella, A. (2018, September). Classification of grasping tasks based on EEG-EMG coherence. In 2018 IEEE 20th International Conference on e-Health Networking, Applications and Services (Healthcom) (pp. 1-6). IEEE.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 Below is a list of the time/frequency-domain features available.
 
