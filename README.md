@@ -31,8 +31,11 @@ RMS_values = squeeze(features(10,1,:))
 
 
 Notes:
+
 (1) you are supposed to have already segmented your signal prior to run the scripts.
+
 (2) from each segment, you can extract one set of features (i.e., one single value for each different feature).
+
 (3) the scripts allows you to extract all features for the EEG. In case of EMG signal, you will not have the band power features (that are specific for EEG).
 
 
@@ -40,30 +43,30 @@ Notes:
 
 Below is a list of the time/frequency-domain features available.
 
--- Time domain uni-dimensional features --
-MIN:  min amplitude value
-MAX:  max amplitude value
-MEAN: mean amplitude value
-MED:  median amplitude value
-SD:   standard deviation from the mean
-VAR:  variance from the mean
-PP:   peak-to-peak distance (range)
-ZC:   zero-crossings
-AUC:  area under curve
-RMS:  root mean square (entire segment)
-MP:   mean (amplitude) power
-MAV:  mean absolute value
-WL:   waveform length
-SK:   skewness
-KUR:  kurtosis
+Time domain uni-dimensional features:
+- MIN:  min amplitude value
+- MAX:  max amplitude value
+- MEAN: mean amplitude value
+- MED:  median amplitude value
+- SD:   standard deviation from the mean
+- VAR:  variance from the mean
+- PP:   peak-to-peak distance (range)
+- ZC:   zero-crossings
+- AUC:  area under curve
+- RMS:  root mean square (entire segment)
+- MP:   mean (amplitude) power
+- MAV:  mean absolute value
+- WL:   waveform length
+- SK:   skewness
+- KUR:  kurtosis
 
--- Frequency domain uni-dimensional features --
-MNF: mean frequency (in power spectrum)
-MDF: median frequency (in power spectrum)
-SPC: spectral centroid
-EN:  signal's energy (area under the power spectrum curve)
-BPd: band power in delta band (0.5,4) Hz
-BPt: band power in theta band (4,8) Hz
-BPa: band power in alpha band (8,13) Hz
-BPb: band power in beta band  (13,30) Hz
-BPg: band power in gamma band >=30 Hz
+Frequency domain uni-dimensional features:
+- MNF: mean frequency (in power spectrum)
+- MDF: median frequency (in power spectrum)
+- SPC: spectral centroid
+- EN:  signal's energy (area under the power spectrum curve)
+- BPd: band power in delta band (0.5,4) Hz
+- BPt: band power in theta band (4,8) Hz
+- BPa: band power in alpha band (8,13) Hz
+- BPb: band power in beta band  (13,30) Hz
+- BPg: band power in gamma band >=30 Hz
